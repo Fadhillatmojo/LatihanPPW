@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style type="text/css">
+            img.xl{
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 1;
+            }
+            img.x2{
+                position: absolute;
+                left: 0;
+                top: 100;
+                z-index: -1;
+            }
+        </style>
+        <title>4</title>
+
+    </head>
+    <body>
+        <p><b>catatan: </b> browser jadul tak akan mendukung properti z-index</p>
+        <h1>sepertinya heading ini terhalang oleh gambar</h1>
+        <img class="xl" src="src/ugm.jpg" width="100" height="80">
+        <p>
+            Nilai default z index adalah 0, z index 1 memiliki prioritas lebih tinggi, sedangkan z index -1 memiliki prioritas lebih rendah.
+        </p>
+        <p></p>
+        <img class="x2" src="src/ugm.jpg" width="100" height="80">
+        <p>
+            sekarang anda bisa membandingkan dengan tampilan tersebut, apakah masih terhalang oleh gambar?
+        </p>
+    </body>
+</html>

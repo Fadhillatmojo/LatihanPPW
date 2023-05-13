@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(210, 46%, 95%);
+}
+
+.card{
+    width: 45%;
+    height: 220px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0 0 50px #00000013;
+
+}
+
+.left{
+    width:45%;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+}
+
+.left img{
+    border-radius: 8px 0 0 8px;
+    width: 100%;
+    height: 100%;
+}
+.right{
+    width:55%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+}
+.right h4{
+    font-weight: 700;
+    line-height: 140%;
+    font-weight: bold;
+    color:hsl(217, 19%, 35%);
+}
+
+.right p{
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 11px;
+    color: hsl(214, 17%, 51%);
+}
+
+.btn-group{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-group img{
+    border-radius: 25px;
+    margin-right: 5%;
+}
+
+.definition{
+    color: hsl(217, 19%, 35%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+ion-icon{
+    font-size: 35px;
+    color: hsl(217, 19%, 35%);
+
+}
+
+@media all and (max-width: 600px){
+    .card{
+        width: 70%;
+        height: 90%;
+        background-color: white;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0px;
+        align-items: center;
+        box-shadow: 0 0 50px #00000013;
+    }
+    .left{
+        height: 40%;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+    .left img{
+        border-radius: 8px 8px 0 0;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        height: 60%;
+        padding: 0;
+        margin: 10%;
+        font-size: large;
+    }
+    .btn-group{
+        margin-top: 12%;
+    }
+    .btn-group 
+}

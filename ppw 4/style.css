@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #F7FBFE;
+}
+
+
+
+nav{
+    background-color: #109589;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul a.menu-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 10px;
+    font-size:small;
+    transition: all ease-in-out 120ms;
+
+}
+
+nav ul a.menu-link:hover{
+    background-color: #0B776F;
+}
+
+nav h3{
+    color: white;
+}
+
+nav h3:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+/* navbar dropdown */
+
+.list-dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.list-dropdown:hover .dropdown-menu{
+    display: flex;
+}
+
+.dropdown-menu ul{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.dropdown-menu ul li{
+    width: 88%;
+}
+
+.dropdown-btn{
+    color: white;
+    font-size:small;
+    font-weight: 600;
+}
+
+.dropdown-link{
+    text-decoration: none;
+    color: #344155;
+    /* font-weight: 500; */
+}
+
+.drop-menu li:hover{
+    background-color:#109589;
+}
+
+.drop-menu li:hover .dropdown-link{
+    color: white;
+}
+
+/* bagian aside dan content */
+.isi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-between;
+    gap: 2%;
+    width: 75%;
+}
+
+.btn1{
+    background-color: red;
+}
+
+.sidebar h2:nth-child(2){
+    color:#344155;
+}
+
+.sidebar h2:nth-child(5){
+    color:#344155; margin-top: 30px;
+}
+
+.sidebar p{
+    font-size: small; font-weight: 300;
+}
+
+.content h1:first-child{
+    color: #344155; font-size: xx-large;
+}
+.container .sidebar{
+    background-color: #fff;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #00000025;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #109589;
+    margin-top: 5px;
+    transition: all ease-in 100ms;
+}
+.sidebar a:hover{
+    color: #344155;
+}
+
+.container .content{
+    background-color: #fff;
+    width: 75%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #00000025;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    fw
+}
+
+.container .content img{
+    width: 100%;
+}
+
+.sidebar button{
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #109589;
+    color: #fff;
+    border: solid 1px #344155;
+    transition: all ease-in-out 120ms;
+}
+
+.sidebar button:hover{
+    background-color: #0B776F;
+    cursor: pointer;
+}
+
+/* bagian card section */
+.card-collection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* height: 100px; */
+    width: 75%;
+    /* background-color: red; */
+}
+
+.card{
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #00000025;
+    transition: 0.2s ease-in-out;
+}
+
+.card-collection h3{
+    color: #344155;
+}
+
+.card-collection a{
+    text-decoration: none;
+    color: #109589;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1), -8px -8px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px);
+}
+/* bagian card section end */
+
+/* bagian footer */
+footer a{
+    color: #fff;
+}
+footer{
+    background-color: #344155;
+    margin-top: 50px;
+    padding: 2%;
+}
+
+footer h3{
+    color: #fff;
+    text-align: center;
+}
