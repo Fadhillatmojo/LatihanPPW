@@ -1,0 +1,15 @@
+1. Memberi atribut class bernama 'container' pada div di line ke 166
+2. Menambahkan titik pada class cta di line ke-47 (menjadi .cta)
+3. Menambahkan id="blue" pada tag <a> di line ke 189
+4. Menambahkan atribut src="https://via.placeholder.com/150"  pada tag <img> di line ke-186
+5. Membuat baris ke-141 menjadi uncomment (tidak terkomen/ aktif)
+6. Menghilangkan/membuat komen tag <h3> judul box 1 </h3> pada baris ke 169.
+7. Menghilangkan tag <img> pada baris ke 217
+8. Merubah warna judul box 5 dengan menambah atribut style"color:purple;" pada tag <h3> di line ke-195
+9. Memperbaiki typo pada line ke-125 dari awalnya nav ul lu, menjadi nav ul ul ul.
+10. Menambahkan tag <ul> pada baris 158.5 (di dalam li layanan)
+11. Menambahkan tag penutup </ul> pada baris 161.5
+12. Menambahkan tag <li> untuk Kontak pada baris ke-165
+13. Memperbaiki typo display:flexbox; pada class box, menjadi display:flex; pada line ke-35
+14. Memperbaiki value dari .box pada atribut flex-direction, menjadi flex-direction:column;
+15. Menghapus tag penutup </div> pada baris ke 225.
