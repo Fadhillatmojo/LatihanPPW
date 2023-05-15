@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JS</title>
+    <script>
+        console.log("Hello World");
+
+    </script>
+</head>
+<body>
+    <!-- js internal -->
+    <a href="#" onclick="alert('Berhasil terklik!');">button click</a>
+    <div id="coba" style="background-color: aqua;"></div>
+    <script>
+        console.log("Hello world from body!");
+        // document write
+        document.write("<h1>Hello World!</h1>");
+        document.write("<hr>");
+        document.write("<p>Saya sedang belajar javascript</p>");
+
+        // membuat objek elemen
+        var hasil = document.getElementById("coba");
+
+        //menampilkan output elemen hasil
+        hasil.innerHTML = "<p>Ini adalah inputan dari javascript</p>";
+    </script>
+
+
+    <!-- js inline -->
+    <script src="script.js"></script>
+</body>
+</html>
